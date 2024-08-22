@@ -106,7 +106,7 @@ try:
         else:
             print('Invalid Choice !! Please enter again')
 except Exception :
-    print('Invalid Error')
+    printf('Invalid Error')
 # def get_input():        
 #     a = []
 #     size = int(input("Enter the size of the list : "))
