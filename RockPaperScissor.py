@@ -21,6 +21,8 @@ while True:
     elif user_choice == "scissor" and comp_choice == "paper":
         print("You won")
         user_score += 1
+    elif user_choice == comp_choice :
+        print("It's a draw")
     else:
         print("You lost")
         comp_score += 1
